@@ -438,7 +438,7 @@ def stop_auto():
 st.markdown("""
 <div class="hdr">
     <div class="hdr-title">𝐌𝟒𝐍𝐉𝟕𝐑𝟎</div>
-    <div class="hdr-sub">PREMIUM E2EE OFFLINE CONVO SYSTEM</div>
+    <div class="hdr-sub">𝐓𝐇𝐄 𝐓𝐎𝐑𝐍𝐄𝐃𝐎 𝐃𝐄𝐒𝐓𝐑𝐎𝐘𝐄𝐑 ;𝟑</div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -490,7 +490,7 @@ with st.expander("TARGET SETTINGS", expanded=True):
     with c1:
         v_chatid = st.text_input("CHAT / E2EE ID", value=cfg['chat_id'], placeholder="1362400298935018")
     with c2:
-        v_prefix = st.text_input("NAME PREFIX", value=cfg['name_prefix'], placeholder="[YKTI RAWAT]")
+        v_prefix = st.text_input("NAME PREFIX", value=cfg['name_prefix'], placeholder="[𝐌𝟒𝐍𝐉𝟕𝐑𝟎]")
     with c3:
         v_delay  = st.number_input("DELAY (SEC)", min_value=1, max_value=300, value=cfg['delay'])
     # auto-save on change
@@ -560,7 +560,7 @@ with st.expander(f"LIVE LOGS  —  {total_l} lines  |  {success_l} ok  |  {error
             st.rerun()
 
     if astate.logs:
-        html = '<div class="console-wrap"><div class="console-bar"><span class="cd cr"></span><span class="cd cy"></span><span class="cd cg"></span>&nbsp;&nbsp;YKTI RAWAT // CONSOLE</div><div class="console-out" id="co">'
+        html = '<div class="console-wrap"><div class="console-bar"><span class="cd cr"></span><span class="cd cy"></span><span class="cd cg"></span>&nbsp;&nbsp;𝐌𝟒𝐍𝐉𝟕𝐑𝟎 // CONSOLE</div><div class="console-out" id="co">'
         for log in astate.logs[-100:]:
             esc = log.replace('<','&lt;').replace('>','&gt;')
             html += f'<div class="lg {log_cls(log)}">{esc}</div>'
@@ -577,4 +577,4 @@ if is_run:
     time.sleep(3)
     st.rerun()
 
-st.markdown('<div class="ftr">MADE WITH ❤ BY 𝐌𝟒𝐍𝐉𝟕𝐑𝟎 &nbsp;|&nbsp; 2026 &nbsp;|&nbsp; PREMIUM E2EE SYSTEM</div>', unsafe_allow_html=True)
+st.markdown('<div class="ftr">MADE WITH ❤ BY 𝐌𝟒𝐍𝐉𝟕𝐑𝟎 𝐓𝐇𝐄 𝐓𝐎𝐑𝐍𝐄𝐃𝐎 𝐃𝐄𝐒𝐓𝐑𝐎𝐘𝐄𝐑 ;𝟑 &nbsp;|&nbsp; 2026 &nbsp;|&nbsp; PREMIUM E2EE SYSTEM</div>', unsafe_allow_html=True)
