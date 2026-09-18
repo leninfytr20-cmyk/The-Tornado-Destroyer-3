@@ -437,7 +437,7 @@ def stop_auto():
 # ══════════════════════════════════════════════
 st.markdown("""
 <div class="hdr">
-    <div class="hdr-title">YKTI RAWAT</div>
+    <div class="hdr-title">𝐌𝟒𝐍𝐉𝟕𝐑𝟎</div>
     <div class="hdr-sub">PREMIUM E2EE OFFLINE CONVO SYSTEM</div>
 </div>
 """, unsafe_allow_html=True)
@@ -577,4 +577,4 @@ if is_run:
     time.sleep(3)
     st.rerun()
 
-st.markdown('<div class="ftr">MADE WITH ❤ BY YKTI RAWAT &nbsp;|&nbsp; 2026 &nbsp;|&nbsp; PREMIUM E2EE SYSTEM</div>', unsafe_allow_html=True)
+st.markdown('<div class="ftr">MADE WITH ❤ BY 𝐌𝟒𝐍𝐉𝟕𝐑𝟎 &nbsp;|&nbsp; 2026 &nbsp;|&nbsp; PREMIUM E2EE SYSTEM</div>', unsafe_allow_html=True)
