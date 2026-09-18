@@ -19,7 +19,7 @@ custom_css = """
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
-    /* ── BACKGROUND WALLPAPER ── */
+    /* ── CHANGE WALPAPER ── */
     .stApp {
         min-height: 100vh;
         background:
