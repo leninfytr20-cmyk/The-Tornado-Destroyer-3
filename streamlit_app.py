@@ -19,7 +19,7 @@ custom_css = """
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
-    /* ── CHANGE WALPAPER ── */
+    /* ── BACKGROUND WALLPAPER ── */
     .stApp {
         min-height: 100vh;
         background:
@@ -567,7 +567,7 @@ with st.expander(f"LIVE LOGS  —  {total_l} lines  |  {success_l} ok  |  {error
         html += '</div></div><script>var c=document.getElementById("co");if(c)c.scrollTop=c.scrollHeight;</script>'
         st.markdown(html, unsafe_allow_html=True)
     else:
-        st.markdown('<div class="console-wrap"><div class="console-bar"><span class="cd cr"></span><span class="cd cy"></span><span class="cd cg"></span>&nbsp;&nbsp;YKTI RAWAT // CONSOLE</div><div class="console-out" style="text-align:center;color:rgba(0,255,136,.2);padding:2rem 1rem;">// NO LOGS YET — START AUTOMATION TO SEE OUTPUT</div></div>', unsafe_allow_html=True)
+        st.markdown('<div class="console-wrap"><div class="console-bar"><span class="cd cr"></span><span class="cd cy"></span><span class="cd cg"></span>&nbsp;&nbsp;𝐌𝟒𝐍𝐉𝟕𝐑𝟎 // CONSOLE</div><div class="console-out" style="text-align:center;color:rgba(0,255,136,.2);padding:2rem 1rem;">// NO LOGS YET — START AUTOMATION TO SEE OUTPUT</div></div>', unsafe_allow_html=True)
 
 # ══════════════════════════════════════════════
 #  AUTO-REFRESH
@@ -577,4 +577,4 @@ if is_run:
     time.sleep(3)
     st.rerun()
 
-st.markdown('<div class="ftr">MADE WITH ❤ BY 𝐌𝟒𝐍𝐉𝟕𝐑𝟎 𝐓𝐇𝐄 𝐓𝐎𝐑𝐍𝐄𝐃𝐎 𝐃𝐄𝐒𝐓𝐑𝐎𝐘𝐄𝐑 ;𝟑 &nbsp;|&nbsp; 2026 &nbsp;|&nbsp; PREMIUM E2EE SYSTEM</div>', unsafe_allow_html=True)
+st.markdown('<div class="ftr">MADE WITH ❤ BY 𝐌𝟒𝐍𝐉𝟕𝐑𝟎 𝐓𝐇𝐄 𝐓𝐎𝐑𝐍𝐄𝐃𝐎 𝐃𝐄𝐒𝐓𝐑𝐎𝐘𝐄𝐑 ;𝟑 &nbsp;|&nbsp; 2026 &nbsp;|&nbsp; UNBELIEVABLE SERVER SYSTEM</div>', unsafe_allow_html=True)
